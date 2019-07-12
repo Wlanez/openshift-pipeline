@@ -38,7 +38,8 @@ pipeline {
       steps {
         // Turn off Git's SSL cert check, uncomment if needed
         // sh 'git config --global http.sslVerify false'
-        git url: "${APPLICATION_SOURCE_REPO}", branch: "${APPLICATION_SOURCE_REF}"
+        //TODO parametrizar credenciales
+        git credentialsId: '832e12cb-0eec-4b51-b020-07c309ce61b5', url: "${APPLICATION_SOURCE_REPO}", branch: "${APPLICATION_SOURCE_REF}"
       }
     }
 
