@@ -88,36 +88,6 @@ pipeline {
       }
     }
 
-    stage('Promote from Dev to Stage') {
-      steps {
-        tagImage(sourceImageName: env.APP_NAME, sourceImagePath: env.DEV, toImagePath: env.STAGE)
-      }
-    }
-
-    stage ('Verify Deployment to Stage') {
-      steps {
-        verifyDeployment(projectName: env.STAGE, targetApp: env.APP_NAME)
-      }
-    }
-
-    stage('Promotion gate') {
-      steps {
-        script {
-          input message: 'Promote application to Production?'
-        }
-      }
-    }
-
-    stage('Promote from Stage to Prod') {
-      steps {
-        tagImage(sourceImageName: env.APP_NAME, sourceImagePath: env.STAGE, toImagePath: env.PROD)
-      }
-    }
-
-    stage ('Verify Deployment to Prod') {
-      steps {
-        verifyDeployment(projectName: env.PROD, targetApp: env.APP_NAME)
-      }
-    }
+    
   }
 }
