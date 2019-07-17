@@ -6,22 +6,22 @@ items:
   metadata:
     name: basic-spring-boot-build
     creationTimestam: null
-  displayName: Spring Rest App - Build
+  displayName: Tecnova App - Build
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
     name: basic-spring-boot-dev
     creationTimestam: null
-  displayName: Spring Rest App - Dev
+  displayName: Tecnova App - Dev
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
     name: basic-spring-boot-stage
     creationTimestam: null
-  displayName: Spring Rest App - Stage
+  displayName: Tecnova App - Stage
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
     name: basic-spring-boot-prod
     creationTimestam: null
-  displayName: Spring Rest App - Prod
+  displayName: Tecnova App - Prod
