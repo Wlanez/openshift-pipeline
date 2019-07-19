@@ -30,7 +30,6 @@ objects:
       git:
         uri: ${SOURCE_REPOSITORY_URL}
         ref: ${SOURCE_REPOSITORY_REF}
-      contextDir: ${CONTEXT_DIR}
     triggers:
     - type: "GitHub"
       github:
