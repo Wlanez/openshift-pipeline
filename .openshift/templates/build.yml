@@ -30,6 +30,7 @@ objects:
       git:
         uri: ${SOURCE_REPOSITORY_URL}
         ref: ${SOURCE_REPOSITORY_REF}
+        sourceSecret: scmsecret
     triggers:
     - type: "GitHub"
       github:
@@ -77,7 +78,7 @@ parameters:
 - description: Git source URI for application
   name: SOURCE_REPOSITORY_URL
   required: true
-  value: https://github.com/Wlanez/openshift-pipeline.git
+  value: git@bitbucket.org:jwnunez/spring-rest.git
 - description: Git branch/tag reference
   name: SOURCE_REPOSITORY_REF
   value: "master"
