@@ -4,24 +4,24 @@ items:
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
-    name: tecnova-spring-boot-build
+    name: app-spring-boot-build
     creationTimestam: null
   displayName: Tecnova App - Build
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
-    name: tecnova-spring-boot-dev
+    name: app-spring-boot-dev
     creationTimestam: null
   displayName: Tecnova App - Dev
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
-    name: tecnova-spring-boot-stage
+    name: app-spring-boot-stage
     creationTimestam: null
   displayName: Tecnova App - Stage
 - kind: ProjectRequest
   apiVersion: v1
   metadata:
-    name: tecnova-spring-boot-prod
+    name: app-spring-boot-prod
     creationTimestam: null
   displayName: Tecnova App - Prod
