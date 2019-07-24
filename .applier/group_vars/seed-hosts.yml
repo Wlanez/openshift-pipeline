@@ -1,8 +1,8 @@
-sb_application_name: tecnova-spring-boot
-sb_build_namespace: tecnova-spring-boot-build
-sb_dev_namespace: tecnova-spring-boot-dev
-sb_stage_namespace: tecnova-spring-boot-stage
-sb_prod_namespace: tecnova-spring-boot-prod
+sb_application_name: app-spring-boot
+sb_build_namespace: app-spring-boot-build
+sb_dev_namespace: app-spring-boot-dev
+sb_stage_namespace: app-spring-boot-stage
+sb_prod_namespace: app-spring-boot-prod
 sb_application_repository_url: "https://github.com/Wlanez/spring-rest.git"
 sb_application_repository_ref: master
 sb_application_readiness_response: "status.:.UP"
